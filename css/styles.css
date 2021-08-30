@@ -7,21 +7,25 @@ body{
     font-size: 16px;
 }
 
-.freetrial{
+.column1{
+    color: white;
+}
+
+.freetrial, .freetrial:hover {
     background-color: hsl(248, 32%, 49%);
     border: none;
 }
+
+
 
 .myform{
     background-color: white;
     padding: 15px;
     border-radius: 10px;
-    
+     
 }
 
-
-
-.myform > p > a{
+.myterms > p > a{
     color: tomato;
 }
 
