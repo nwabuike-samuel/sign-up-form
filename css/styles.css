@@ -1,0 +1,36 @@
+body{
+    background-image: url(../images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%) ;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.freetrial{
+    background-color: hsl(248, 32%, 49%);
+    border: none;
+}
+
+.myform{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+
+
+.myform > p > a{
+    color: tomato;
+}
+
+@media only screen and (min-width: 500px){
+    body{
+        background-image: url(../images/bg-intro-desktop.png);
+        background-color: hsl(0, 100%, 74%) ;
+        background-repeat: repeat;
+        background-attachment: scroll;
+    }
+
+}
